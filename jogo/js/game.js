@@ -15,7 +15,7 @@ function main(currentTime) {
     if (gameOver) {
         if(confirm('Você perdeu!')){ 
         }
-        window.location.href = "inicio.html";
+        window.location.href = "index.html";
         return;
     }
 
@@ -47,3 +47,4 @@ function draw() {
 function checkDeath(){
     gameOver = outsideGrid(getSnakeHead()) || snakeIntersection();
 }
+
